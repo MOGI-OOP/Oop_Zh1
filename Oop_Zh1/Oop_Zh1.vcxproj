@@ -123,7 +123,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\MenuTest\MenuTest\_InputUtils.cpp" />
+    <ClCompile Include="..\..\MenuTest\MenuTest\_ProgramMenu.cpp" />
+    <ClCompile Include="BankAdat.cpp" />
     <ClCompile Include="Oop_Zh1.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\MenuTest\MenuTest\_InputUtils.h" />
+    <ClInclude Include="..\..\MenuTest\MenuTest\_ProgramMenu.h" />
+    <ClInclude Include="BankAdat.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Unicredit.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
